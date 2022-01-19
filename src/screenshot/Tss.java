@@ -22,7 +22,7 @@ public class Tss {
 	
 	driver.navigate().to("https://www.instagram.com/");
 	
-	TakesScreenshot ss=((TakesScreenshot)driver);
+	TakesScreenshot ss=(TakesScreenshot)driver;
 	
 	File format=ss.getScreenshotAs(OutputType.FILE);
 	
