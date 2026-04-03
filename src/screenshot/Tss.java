@@ -26,7 +26,6 @@ public class Tss {
 		File format = ss.getScreenshotAs(OutputType.FILE);
 
 		FileUtils.copyFile(format, new File("/Users/pavanchaudhari/eclipse-workspace/A-SeleniumDemo/ss/instagram.jpg"));
-
 		driver.close();
 	}
 
