@@ -28,7 +28,6 @@ public class Tss {
 		FileUtils.copyFile(format, new File("/Users/pavanchaudhari/eclipse-workspace/A-SeleniumDemo/ss/instagram.jpg"));
 
 		driver.close();
-
 	}
 
 }
